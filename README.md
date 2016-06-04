@@ -15,9 +15,9 @@ Afterwards, follow the guide for [Passwordless](https://github.com/florianheinem
 
 ```javascript
 var passwordless = require('passwordless');
-var NodeCache = require('passwordless-nodecache');
+var NodeCacheStore = require('passwordless-nodecache');
 
-passwordless.init(new NodeCache());
+passwordless.init(new NodeCacheStore());
 
 passwordless.addDelivery(
     function(tokenToSend, uidToSend, recipient, callback) {
