@@ -11,10 +11,13 @@
   },
   "author": "Andrea Falzetti <afalzetti@gmail.com> (http://falzetti.me/)",
   "license": "MIT",
+<<<<<<< HEAD
   "keywords": [
     "passwordless",
     "cache"
   ],
+=======
+>>>>>>> 45ded3598093fa978c04d8434b2c2260d49aa50c
   "bugs": {
     "url": "https://github.com/andreafalzetti/passwordless-nodecache/issues"
   },
