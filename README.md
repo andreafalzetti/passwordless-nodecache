@@ -31,12 +31,12 @@ app.use(passwordless.acceptToken());
 ## Initialization
 
 ```javascript
-new NodeCache();
+new NodeCacheStore();
 ```
 
 Example:
 ```javascript
-passwordless.init(new NodeCache());
+passwordless.init(new NodeCacheStore());
 ```
 
 ## Hash and salt

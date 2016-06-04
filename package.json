@@ -1,6 +1,6 @@
 {
   "name": "passwordless-nodecache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeCache TokenStore for Passwordless",
   "main": "index.js",
   "directories": {
