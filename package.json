@@ -1,0 +1,34 @@
+{
+  "name": "passwordless-nodecache",
+  "version": "1.0.0",
+  "description": "NodeCache TokenStore for Passwordless",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Andrea Falzetti <afalzetti@gmail.com> (http://falzetti.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreafalzetti/passwordless-nodecache/issues"
+  },
+  "homepage": "https://github.com/andreafalzetti/passwordless-nodecache",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "node-cache": "^3.2.1",
+    "passwordless": "^1.1.1",
+    "passwordless-tokenstore": "0.0.10",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chance": "^1.0.3",
+    "grunt": "^1.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.5.3",
+    "node-uuid": "^1.4.7",
+    "passwordless-tokenstore-test": "^0.1.4"
+  }
+}
