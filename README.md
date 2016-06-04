@@ -23,7 +23,7 @@ passwordless.addDelivery(
     function(tokenToSend, uidToSend, recipient, callback) {
         // Send out a token
     });
-    
+
 app.use(passwordless.sessionSupport());
 app.use(passwordless.acceptToken());
 ```
@@ -40,7 +40,7 @@ passwordless.init(new NodeCache());
 ```
 
 ## Hash and salt
-As the tokens are equivalent to passwords (even though they do have the security advantage of only being valid for a limited time) they have to be protected in the same way. passwordless-memorystore uses [bcryptjs](https://github.com/dcodeIO/bcrypt.js) with automatically created random salts. To generate the salt 10 rounds are used.
+As the tokens are equivalent to passwords (even though they do have the security advantage of only being valid for a limited time) they have to be protected in the same way. passwordless-nodecache uses [bcryptjs](https://github.com/dcodeIO/bcrypt.js) with automatically created random salts. To generate the salt 10 rounds are used.
 
 ## Tests
 
