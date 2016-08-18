@@ -1,5 +1,6 @@
 # Passwordless-NodeCache
 [![npm version](https://badge.fury.io/js/passwordless-nodecache.svg)](https://badge.fury.io/js/passwordless-nodecache)
+[![Project Supported By ES6.io](https://img.shields.io/badge/👍_Project_Supported_By-ES6.io Tutorials-brightgreen.svg?style=flat-square)](https://ES6.io/friend/AFALZETTI)
 
 Node-Cache token store for Passwordless
 
