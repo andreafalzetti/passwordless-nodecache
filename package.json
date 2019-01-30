@@ -24,7 +24,7 @@
     "node-cache": "^3.2.1",
     "passwordless": "^1.1.1",
     "passwordless-tokenstore": "0.0.10",
-    "util": "^0.10.3"
+    "util": "^0.11.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
