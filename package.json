@@ -21,7 +21,7 @@
   "homepage": "https://github.com/andreafalzetti/passwordless-nodecache",
   "dependencies": {
     "bcryptjs": "^2.3.0",
-    "node-cache": "^3.2.1",
+    "node-cache": "^4.2.1",
     "passwordless": "^1.1.1",
     "passwordless-tokenstore": "0.0.10",
     "util": "^0.10.3"
