@@ -30,7 +30,7 @@
     "chai": "^3.5.0",
     "chance": "^1.0.3",
     "grunt": "^1.0.1",
-    "grunt-mocha-test": "^0.12.7",
+    "grunt-mocha-test": "^0.13.3",
     "mocha": "^6.2.1",
     "node-uuid": "^1.4.7",
     "passwordless-tokenstore-test": "^0.1.4"
